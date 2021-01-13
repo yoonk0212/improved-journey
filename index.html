@@ -4,74 +4,76 @@
         <title>Javascript</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
     </head>
     <body>
-        <h1>Javascript</h1>
+        <div class="hello" 
+        ///onclick="this.id='hello2'"
+        >
+            <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1377 1377">
+                <g id="Group_1" data-name="Group 1" transform="translate(-272 1152)">
+                  <circle id="Ellipse_15" data-name="Ellipse 15" cx="688.5" cy="688.5" r="688.5" transform="translate(272 -1152)" fill="#fff"/>
+                  <text id="Hello_" data-name="Hello ! " transform="translate(960 121)" fill="#707070" font-size="50" font-family="TMON_1.0-Bold, 'TMON_1.0'" font-weight="700"><tspan x="-77.087" y="30">Hello ! </tspan></text>
+                </g>
+              </svg>          
+        </div>        
+    <div class="textBlock">
+        <h1>권윤</h1>
         <pre>
-hi im yoon
-fdsfsjdkfjlsdfj
-djskf
-fdsfsjdkfjlsdfjd
-fds
-ff
-
-fsa
-fa
-g
-g
-gf
-fdsfsjdkfjlsdfjf
-fdsfsjdkfjlsdfjf
-ffa
-fd
-fd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-fd
-ffe
-rwe
-rt
-ter
-rwer
-rewrwre
-rerewrwrwe
-rerewrwrwe
-rwerwerewrerewr
-rwerwerewrerewr
-rewrwre
-
-gg
-gfg
-gfg
+Hello World
 
         </pre>
-        <img src="img/Eye_Roll_Emoji_large.png" alt="eyeroll emoji" width="40%">
-        <input id="night_day" type="button" value="Night" onclick="
-            if(document.querySelector('#night_day').value === 'Night'){
-                /*document.querySelector('body').style.backgroundColor = 'black';
-                document.querySelector('body').style.color = 'white';*/
-                document.querySelector('#night_day').value = 'Day'
-                document.querySelector('body').className = 'night'
-            }
-            else{
-                /*document.querySelector('body').style.backgroundColor = 'white';
-                document.querySelector('body').style.color = 'black';*/
-                document.querySelector('#night_day').value = 'Night'
-                document.querySelector('body').className = 'day'
-            }
-        ">
+    </div>
+        <!-- <input class="night_day" type="button" value="Night" onclick="
+            nightDayHandler(this);
+        "> -->
+    
+<div class="containter">
+    
+    <div class="circle">
+        <img src="img/yoon kwon.png" alt="yoon kwon">
+        <input class="colorbutton" id="redbutton" type="button" style="top:10px" onclick="colorchanger(this)">
+    </div>
+    <div class="circle">
+        <input class="colorbutton" id="bluebutton" type="button" style="top:30px; left: 40px;" onclick="colorchanger(this)">
+        <input class="colorbutton" id="redbutton" type="button" style="top:100px; left: 90px;" onclick="colorchanger(this)">
+
+    </div>
+    <div class="circle">
+        <img src="img/yoon kwon.png" alt="yoon kwon" style="right: 250px;">
+    </div>
+    <div class="circle">
+        <img src="img/yoon kwon.png" alt="yoon kwon" style="right: 500px;">
+
+    </div>
+</div>
+<pre>
+    Hello World
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</pre>
+<img src="img/Eye_Roll_Emoji_large.png" alt="eyeroll emoji" width="10%">
+
     </body>
 </html>
